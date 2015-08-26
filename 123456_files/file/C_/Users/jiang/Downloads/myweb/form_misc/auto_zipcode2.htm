@@ -1,0 +1,50 @@
+﻿<html>
+
+<!-- Mirrored from file:///C:/Users/jiang/Downloads/myweb/form_misc/auto_zipcode2.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2015 16:29:57 GMT -->
+<head>
+<title>自動填入區域號碼</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script LANGUAGE="JavaScript" src="add.js"></script>
+</head>
+
+<body>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td align="center"> 
+      <form name="form1" method="post" action="#">
+        <p>郵寄資料</p>
+        <p align="center">&nbsp;</p>
+
+        <table width="600" border="0" cellpadding="0" cellspacing="0" align="center">
+          <tr> 
+            <td nowrap><font size="2">郵寄地址</td>
+            <td> 
+              
+              <select onChange="changeZone(form1.City, form1.Canton, form1.Zip)" size=1 name=City>
+              </select>
+              <select onChange="showZipCode(form1.City, form1.Canton, form1.Zip)" size=1 name=Canton>
+              </select>
+              <input onFocus="alert('郵遞區號會自動產生');form1.Zip.blur();" size=5 name=Zip disabled>
+              <input size=25 name=consigneeAddress>
+              <font size="2">門牌街道  </td>
+          </tr>
+        </table>
+
+        <p align="center"> <font color="#336699"> 
+          <input type="submit" name="Submit" value="確認送出">
+          <input type="reset" name="Submit2" value="清除重填">
+          </p>
+      </form>
+      
+    </td>
+  </tr>
+
+</table>
+</body>
+
+<!-- Mirrored from file:///C:/Users/jiang/Downloads/myweb/form_misc/auto_zipcode2.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2015 16:29:57 GMT -->
+</html>
+<script>
+ResetAll();
+</script>
