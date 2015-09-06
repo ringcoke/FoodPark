@@ -11,13 +11,15 @@
         <link rel="dns-prefetch" href="http://jwpsrv.com/">
 
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <script type="text/javascript"></script>
         <script type="text/javascript" src="./123456_files/fcf8d519de"></script>
         <script src="./123456_files/nr-686.min.js"></script>
         <script type="text/javascript" async="" defer="" src="./123456_files/goal.min.js"></script>
         <script async="" src="./123456_files/analytics.js"></script>
         <script type="text/javascript">window.NREUM || (NREUM = {});
-    NREUM.info = {"beacon": "bam.nr-data.net", "errorBeacon": "bam.nr-data.net", "licenseKey": "fcf8d519de", "applicationID": "13909", "transactionName": "NTU0DRQNDwshOmIZBRM3dR8TDg84Nys/FRQYBSoLAxQKAjM=", "queueTime": 0, "applicationTime": 57, "agent": "js-agent.newrelic.com/nr-686.min.js", "atts": "DXgvW1wZQRQtPChSS1QOMhwLByUINi0+BFNaeCkKCkBZASUkPhVdVCg/CBMHEBMbOD8fBRk5NRVEWEEPMDw9Sl5ZeHZbFQsECSEsEhkfKS8pHBRAWUVndAMZHTU2OwoVXEFLZiE9UktUa25JSFNQUGp6fERfQ214VUQXEAI2FywXFBgueENEKjczNikuG15FdGoBRE5BFSE+JAMYGTR4Q0QDBwF2f3lILRh4JwQ="}</script>
+    	NREUM.info = {"beacon": "bam.nr-data.net", "errorBeacon": "bam.nr-data.net", "licenseKey": "fcf8d519de", "applicationID": "13909", "transactionName": "NTU0DRQNDwshOmIZBRM3dR8TDg84Nys/FRQYBSoLAxQKAjM=", "queueTime": 0, "applicationTime": 57, "agent": "js-agent.newrelic.com/nr-686.min.js", "atts": "DXgvW1wZQRQtPChSS1QOMhwLByUINi0+BFNaeCkKCkBZASUkPhVdVCg/CBMHEBMbOD8fBRk5NRVEWEEPMDw9Sl5ZeHZbFQsECSEsEhkfKS8pHBRAWUVndAMZHTU2OwoVXEFLZiE9UktUa25JSFNQUGp6fERfQ214VUQXEAI2FywXFBgueENEKjczNikuG15FdGoBRE5BFSE+JAMYGTR4Q0QDBwF2f3lILRh4JwQ="}</script>
         <script type="text/javascript">
+            
     (window.NREUM || (NREUM = {})).loader_config = {xpid: "VQcGQldQAQMJ"};
     window.NREUM || (NREUM = {}), __nr_require = function(t, e, n) {
         function r(n) {
@@ -516,7 +518,7 @@
 
                 <div class="preview__action--close">
 
-                    <a href="./123456_files/saved_resource.html">
+                    <a href="./123456_files/mapindex.jsp">
 
                     </a>
                 </div>
@@ -524,7 +526,7 @@
 
         </div>
 
-       <iframe class="full-screen-preview__frame" src="./123456_files/saved_resource.html" name="preview-frame" frameborder="0" noresize="noresize" style="height: 878px;">
+       <iframe class="full-screen-preview__frame" src="./123456_files/mapindex.jsp" name="preview-frame" frameborder="0" noresize="noresize" style="height: 878px;">
         </iframe> 
 
 

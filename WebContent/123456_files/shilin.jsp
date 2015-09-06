@@ -1,9 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://preview.byaviators.com/theme/realia/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="css">
+<style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style>
+<style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
+<style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <title>FoodPark | Food &amp; Parking&lt;br&gt;Informatino @ Taiwan</title>
         <script type="text/javascript">
@@ -54,9 +59,9 @@
         <script type="text/javascript" src="jquery-migrate.min.js"></script>
         <script type="text/javascript" src="collapse.js"></script>
         <script type="text/javascript" src="realia.js"></script>
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://preview.byaviators.com/theme/realia/xmlrpc.php?rsd">
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://preview.byaviators.com/theme/realia/wp-includes/wlwmanifest.xml"> 
-        <meta name="generator" content="WordPress 4.2.4">
+ 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://preview.byaviators.com/theme/realia/xmlrpc.php?rsd">
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://preview.byaviators.com/theme/realia/wp-includes/wlwmanifest.xml">      
+		<meta name="generator" content="WordPress 4.2.4">    
         <link rel="canonical" href="mapindex.jsp">
         <link rel="shortlink" href="mapindex.jsp">
         <script type="text/javascript">
@@ -72,7 +77,7 @@
                 s.parentNode.insertBefore(ga, s);
             })();
         </script>
-        <link rel="https://github.com/WP-API/WP-API" href="http://preview.byaviators.com/theme/realia/wp-json">
+	   <link rel="https://github.com/WP-API/WP-API" href="http://preview.byaviators.com/theme/realia/wp-json">      
         <style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">.zopim { display: none !important }</style>
         <script type="text/javascript" charset="UTF-8" src="common.js"></script>
         <script type="text/javascript" charset="UTF-8" src="map.js"></script>
@@ -82,17 +87,14 @@
         <script type="text/javascript" charset="UTF-8" src="onion.js"></script>
         <script type="text/javascript" charset="UTF-8" src="controls.js"></script>
         <script type="text/javascript" charset="UTF-8" src="stats.js"></script>
-
-
+		<script src="http://maps.googleapis.com/maps/api/js" ></script>
         <style type="text/css">
             .cr{ font-weight:900}
         </style>
-
-
     <head>
         <style type="text/css">
             html, body { height: 100%; margin: 0; padding: 0; }
-            #map { height: 100%; margin: 15px; padding: 15px; }
+            #map { height: 100%; margin: 0px 15px; padding: 15px; }
         </style>
     </head>
 
@@ -188,67 +190,63 @@
                                                 <span class="cr">台北市</span>        <i class="fa fa-caret-square-o-right"></i></a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li id="a01" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-457">
-                                                    <a href="shilin.jsp">
+                                                    <a href="#">
                                                         <span class="cr">士林夜市</span></a>
                                                 </li>
                                                 <li id="a02" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">華西街夜市</span></a>
                                                 </li>
                                                 <li id="a03" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">艋舺夜市</span></a>
                                                 </li>
                                                 <li id="a04" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">饒河街夜市</span></a>
                                                 </li>
-                                                <li id="a05" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
-                                                        <span class="cr">公館夜市</span></a>
-                                                </li>
                                                 <li id="a06" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">南機場觀光夜市</span></a>
                                                 </li>
                                                 <li id="a07" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">師大夜市</span></a>
                                                 </li>
                                                 <li id="a08" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">通化街夜市</span></a>
                                                 </li>
                                                 <li id="a09" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">寧夏夜市</span></a>
                                                 </li>
                                                 <li id="a10" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">大龍街夜市</span></a>
                                                 </li>
                                                 <li id="a11" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">延三夜市</span></a>
                                                 </li>
                                                 <li id="a12" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">景美夜市</span></a>
                                                 </li>
                                                 <li id="a13" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">雙城街夜市</span></a>
                                                 </li>
                                                 <li id="a14" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">遼寧街夜市</span></a>
                                                 </li>
                                                 <li id="a15" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">石牌夜市</span></a>
                                                 </li>
                                                 <li id="a16" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-558">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">林口街夜市</span></a>
                                                 </li>
                                             </ul>
@@ -258,47 +256,47 @@
                                                 <span class="cr">新北市</span>  <i class="fa fa-caret-square-o-right"></i></a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li id="f01" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-557">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">三和夜市</span></a>
                                                 </li>
                                                 <li id="f02" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-569">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">南雅夜市</span></a>
                                                 </li>
                                                 <li id="f03" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">樂華夜市</span></a>
                                                 </li>
                                                 <li id="f04" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">樹林夜市</span></a>
                                                 </li>
                                                 <li id="f05" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">蘆洲廟口夜市</span></a>
                                                 </li>
                                                 <li id="f06" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">輔大花園觀光夜市</span></a>
                                                 </li>
                                                 <li id="f07" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">新莊夜市</span></a>
                                                 </li>
                                                 <li id="f08" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">中和興南夜市</span></a>
                                                 </li>
                                                 <li id="f10" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">泰山夜市</span></a>
                                                 </li>
                                                 <li id="f11" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">英專路夜市</span></a>
                                                 </li>
                                                 <li id="f12" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-570">
-                                                    <a href="mapindex.jsp">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">三芝夜市</span></a>
                                                 </li>
                                             </ul>
@@ -325,7 +323,7 @@
                                             </ul>
                                         </li>
                                         <li id="aw00" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-588">
-                                            <a href="http://preview.byaviators.com/theme/realia/property-slider/">
+                                            <a href="">
                                                 <span class="cr">西區</span>    <i class="fa fa-caret-square-o-right"></i></a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li id="aw01" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-591">
@@ -397,25 +395,25 @@
                                             </ul>
                                         </li>
                                         <li id="an00" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-600">
-                                            <a href="http://preview.byaviators.com/theme/realia/property-slider/">
+                                            <a href="">
                                                 <span class="cr">北區</span>    <i class="fa fa-caret-square-o-right"></i></a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li id="an01" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-586">
-                                                    <a href="aved_resource.html">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">天母商圈</span></a>
                                                 </li>
                                                 <li id="an02" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-590">
-                                                    <a href="aved_resource.html">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">石牌商城商圈</span></a>
                                                 </li>
                                                 <li id="an03" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-590">
-                                                    <a href="aved_resource.html">
+                                                    <a href="saved_resource.html">
                                                         <span class="cr">北投商圈</span></a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li id="ac00" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-600">
-                                            <a href="http://preview.byaviators.com/theme/realia/property-slider/">
+                                            <a href="">
                                                 <span class="cr">中區</span>    <i class="fa fa-caret-square-o-right"></i></a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li id="ac01" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-586">
@@ -522,96 +520,55 @@
         </div><!-- /.header -->
 
 
+        <div id="map"></div>
+       
+        <script>
+        	var myCenter=new google.maps.LatLng(25.089175,121.523143);
 
+        	function initMap()
+        	{
+        	var mapProp = {center:myCenter,zoom:14,
+        	  mapTypeId:google.maps.MapTypeId.ROADMAP
+        	  };
 
-            <!--查詢-->
+        	var map=new google.maps.Map(document.getElementById("map"),mapProp);
 
-            <div class="container">
-                <div class="sidebar-top">
+        	var marker=new google.maps.Marker({position:myCenter,});
 
-                    <div id="filter_rent_sale_widget-2" class="widget widget_filter_rent_sale_widget">
+        	marker.setMap(map);
+        	}
 
-                        <div class="tabs ">
+        	google.maps.event.addDomListener(window, 'load', initMap);
+        	       	
+        </script>
 
-                            <div class="tabs-content">
-                                <div class="tab-content rent-tab active" id="filter_rent_sale_widget-2-rent">
+    </div>        
+         
+<!--             
+        <script type="text/javascript" >
 
-                                    <form name="form1" method="post" action="#">
-                                        <div class="form-group">
-                                            <select class="form-control" onChange="changeZone(form1.City, form1.Canton)"  name=City>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <select class="form-control" onChange="showZipCode(form1.City, form1.Canton)"  name=Canton>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name=consigneeAddress>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <button class="btn">查詢</button>
-                                        </div><!-- /.form-group -->
-                                    </form>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <!-- /.sidebar -->
-            </div>
-
-            <!--å°å-->
-            <!-- /.map-wrapper -->
-            <div id="map"></div>
+            var map;
             
-            <script type="text/javascript">
-          function initMap() {
-        	//預設定位 台北車站  
-	        var map = new google.maps.Map(document.getElementById('map'), {
-	            	center: {lat: 25.046766, lng: 121.517314}, 
-	                zoom: 14
-	 		 });
-	  		var infoWindow = new google.maps.InfoWindow({map: map});
-	
-	  		// Try HTML5 geolocation.
-		  if (navigator.geolocation) {
-		    navigator.geolocation.getCurrentPosition(function(position) {
-		      var pos = {
-		        lat: position.coords.latitude,
-		        lng: position.coords.longitude
-		      };
-	
-		      infoWindow.setPosition(pos);
-		      infoWindow.setContent('Location found.');
-		      map.setCenter(pos);
-			  }, function() {
-			  handleLocationError(true, infoWindow, map.getCenter());
-			    });
-	 	 } else {
-	         // Browser doesn't support Geolocation
-	    	handleLocationError(false, infoWindow, map.getCenter());
-	  	}
-	}
-	
-	function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-	  infoWindow.setPosition(pos);
-	  infoWindow.setContent(browserHasGeolocation ?
-	                        '通知: 您的地理定位服務尚未開啓！' :
-	                        '通知: 您的裝置不支援地理定位服務！');
-	}
+            function initMap() {
+            	
+            	
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: 25.089175, lng: 121.523143},
+                    zoom: 14
+                });
+            }
 
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"
-        async defer>
-    </script>
-
-    </div>
+        </script>
+		<script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGQIloH-RyoF7HDrpU8Qa401Q50FAmCIU&callback=initMap">
+        </script> -->    
 
 
-    
+
+
+
+
+
     <div class="container">
         <div class="sidebar-top">
 
@@ -647,7 +604,7 @@
                                 <div class="property-container">
                                     <div class="property-box">
                                         <div class="property-box-image ">
-                                            <a href="" class="property-box-image-inner ">
+                                            <a href=" " class="property-box-image-inner ">
                                                 <img width="270" height="226" src="5388662544_96ca3f71c1_o-270x226.jpg" class="attachment-property-box-thumbnail wp-post-image" alt="interiors">            
                                                 <!--照片上的文字--> <!--<span class="property-badge">Featured / Reduced</span>
                                                  <span class="property-badge property-badge-sticky">TOP</span>-->
@@ -673,19 +630,19 @@
                                 <div class="property-container">
                                     <div class="property-box">
                                         <div class="property-box-image ">
-                                            <a href="http://preview.byaviators.com/theme/realia/properties/north-parchmore-street/" class="property-box-image-inner ">
+                                            <a href=" " class="property-box-image-inner ">
                                                 <img width="270" height="226" src="5388661724_859d557469_o-270x226.jpg" class="attachment-property-box-thumbnail wp-post-image" alt="interiors">            
                                             </a>
                                         </div><!-- /.property-image -->
                                         <div class="property-box-content">
                                             <div class="property-box-title">
-                                                <h3><a href="http://preview.byaviators.com/theme/realia/properties/north-parchmore-street/">饒河街觀光夜市</a></h3>
+                                                <h3><a href=" ">饒河街觀光夜市</a></h3>
                                             </div><!-- /.property-box-title -->
                                             <div class="property-box-body">
                                                 <div class="property-box-type">
                                                     為臺北市著名的觀光夜市之一。</div><!-- /.property-box-type -->
                                                 <div class="property-box-read-more">
-                                                    <a href="http://preview.byaviators.com/theme/realia/properties/north-parchmore-street/">Read More</a>
+                                                    <a href=" ">Read More</a>
                                                 </div><!-- /.property-box-price -->
                                             </div><!-- /.property-box-body -->
                                         </div><!-- /.property-box-content -->
@@ -731,7 +688,7 @@
                                             </div><!-- /.property-box-title -->
                                             <div class="property-box-body">
                                                 <div class="property-box-type">
-                                                    艋舺夜市又稱為萬華夜市11111111111。</div><!-- /.property-box-type -->
+                                                    艋舺夜市又稱為萬華夜市。</div><!-- /.property-box-type -->
                                                 <div class="property-box-read-more">
                                                     <a href="http://preview.byaviators.com/theme/realia/properties/south-celler-court/">Read More</a>
                                                 </div><!-- /.property-box-price -->
